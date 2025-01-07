@@ -13,4 +13,3 @@ export async function down(knex: Knex): Promise<void> {
         table.dropColumn("session_id")
     })
 }
-
